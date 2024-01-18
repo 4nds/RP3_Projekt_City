@@ -1,0 +1,49 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <RootNamespace>City_Rp3</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Platforms>AnyCPU;x64</Platforms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Update="AarmoryMenuContent.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="BuildingsMenuContent.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Game.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="GameMenuContent.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="MainBuildingMenuContent.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="mapUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="MenuContainer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="SmithyMenuContent.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="StartScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Window.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="WorkersMenuContent.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+  </ItemGroup>
+
+</Project>
